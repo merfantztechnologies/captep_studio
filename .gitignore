@@ -1,0 +1,31 @@
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
+# Ignore cache files
+*.cache
+*.tmp
+*.log
+*.bak
+# Ignore audio files
+*.mp3
+*.wav
+*.aac
+*.flac
+*.ogg
+*.m4a
+# Ignore Conda environment files
+*.conda
+*.env
+# Ignore Python environment files
+__pycache__/
+*.pyc
+*.pyo
+# Ignore system files
+.DS_Store
+Thumbs.db
