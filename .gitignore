@@ -1,0 +1,92 @@
+# ---------------------------------------
+# Python cache
+# ---------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ---------------------------------------
+# Virtual environments (pip + conda)
+# ---------------------------------------
+env/
+venv/
+ENV/
+.venv/
+.conda/
+conda-env/
+conda/
+*.conda
+*.pickle
+*.pkl
+
+# Conda environment folders
+*/envs/
+*/conda_env/
+*.lock
+
+# Conda metadata files
+environment.yml
+environment.yaml
+*.yml
+*.yaml
+
+# ---------------------------------------
+# Environment & secrets
+# ---------------------------------------
+*.env
+*.env.*
+!.env.example
+
+# ---------------------------------------
+# Logs & temp files
+# ---------------------------------------
+*.log
+*.tmp
+*.temp
+
+# ---------------------------------------
+# Jupyter notebooks
+# ---------------------------------------
+.ipynb_checkpoints/
+
+# ---------------------------------------
+# IDE / Editor configs
+# ---------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------------------------------------
+# OS-generated files
+# ---------------------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------
+# Build / Distribution
+# ---------------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------------------------------------
+# pytest & coverage
+# ---------------------------------------
+.cache/
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# ---------------------------------------
+# Other common unwanted files
+# ---------------------------------------
+*.sqlite3
+*.db
+*.pid
+
+Merfantz/report.md
+report.md
+Merfantz/src/tools/backup/
